@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Private keys - do not commit
+keys/private.pem
+firmware/private.pem
+
+# Test artifacts
+test_firmware.bin
+test_firmware.bin.sig
+test_public.pem
+
+# Editor
+.vscode/
